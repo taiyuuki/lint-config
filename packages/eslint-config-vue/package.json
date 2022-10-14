@@ -1,0 +1,27 @@
+{
+  "name": "@taiyuuki/eslint-config-vue",
+  "version": "0.0.6",
+  "description": "vue eslint config by taiyuuki",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "bump:patch": "bump patch",
+    "publish:dev": "npm publish --registry=http://localhost:4873 --access=public",
+    "publish:npm": "npm publish --registry=https://registry.npmjs.org --access=public"
+  },
+  "keywords": [
+    "eslint config"
+  ],
+  "author": "taiyuuki",
+  "license": "MIT",
+  "dependencies": {
+    "@taiyuuki/eslint-config-ts": "0.0.4",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-vue": "^9.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.25.0"
+  }
+}

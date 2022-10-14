@@ -1,0 +1,29 @@
+{
+  "name": "@taiyuuki/eslint-config-ts",
+  "version": "0.0.4",
+  "description": "ts eslint config by taiyuuki",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "bump:patch": "bump patch",
+    "publish:dev": "npm publish --registry=http://localhost:4873 --access=public",
+    "publish:npm": "npm publish --registry=https://registry.npmjs.org --access=public"
+  },
+  "keywords": [
+    "eslint config"
+  ],
+  "author": "taiyuuki",
+  "license": "MIT",
+  "dependencies": {
+    "@taiyuuki/eslint-config": "^0.0.4",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint-plugin-import": "^2.26.0",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.25.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "@taiyuuki/eslint-config",
+  "version": "0.0.4",
+  "description": "eslint config by taiyuuki",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "bump:patch": "bump patch",
+    "publish:dev": "npm publish --registry=http://localhost:4873 --access=public",
+    "publish:npm": "npm publish --registry=https://registry.npmjs.org --access=public"
+  },
+  "keywords": [
+    "eslint config"
+  ],
+  "author": "taiyuuki",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsonc": "^2.4.0",
+    "jsonc-eslint-parser": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.25.0"
+  }
+}

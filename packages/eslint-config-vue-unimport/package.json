@@ -1,0 +1,22 @@
+{
+  "name": "@taiyuuki/eslint-config-vue-unimport",
+  "version": "0.0.3",
+  "description": "vue eslint config with unplugin-auto-import",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "bump:patch": "bump patch",
+    "publish:dev": "npm publish --registry=http://localhost:4873 --access=public",
+    "publish:npm": "npm publish --registry=https://registry.npmjs.org --access=public"
+  },
+  "keywords": [
+    "eslint config"
+  ],
+  "author": "taiyuuki",
+  "license": "MIT",
+  "dependencies": {
+    "@taiyuuki/eslint-config-vue": "0.0.6"
+  }
+}
