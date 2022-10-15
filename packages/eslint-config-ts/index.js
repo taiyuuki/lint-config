@@ -22,6 +22,7 @@ module.exports = {
     '@typescript-eslint/prefer-ts-expect-error': 'error',
 
     // override
+    'no-undef': 'off',
     'no-useless-constructor': 'off',
     'indent': 'off',
     '@typescript-eslint/indent': ['warn', 2, {

@@ -1,6 +1,6 @@
 {
   "name": "@taiyuuki/eslint-config-vue-unimport",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "vue eslint config with unplugin-auto-import",
   "main": "index.js",
   "files": [
@@ -17,6 +17,6 @@
   "author": "taiyuuki",
   "license": "MIT",
   "dependencies": {
-    "@taiyuuki/eslint-config-vue": "0.0.6"
+    "@taiyuuki/eslint-config-vue": "0.0.7"
   }
 }
