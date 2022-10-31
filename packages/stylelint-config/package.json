@@ -1,7 +1,7 @@
 {
-  "name": "@taiyuuki/eslint-config-vue-unimport",
-  "version": "0.0.5",
-  "description": "vue eslint config with unplugin-auto-import",
+  "name": "@taiyuuki/stylelint-config",
+  "version": "0.0.1",
+  "description": "stylelint config",
   "main": "index.js",
   "files": [
     "*.js"
@@ -16,7 +16,5 @@
   ],
   "author": "taiyuuki",
   "license": "MIT",
-  "dependencies": {
-    "@taiyuuki/eslint-config-vue": "0.0.7"
-  }
+  "devDependencies": {}
 }

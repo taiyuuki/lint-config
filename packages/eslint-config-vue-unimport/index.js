@@ -1,6 +1,13 @@
 module.exports = {
   extends: ['@taiyuuki/eslint-config-vue'],
   globals: {
+    $$: 'readonly',
+    $: 'readonly',
+    $computed: 'readonly',
+    $customRef: 'readonly',
+    $ref: 'readonly',
+    $shallowRef: 'readonly',
+    $toRef: 'readonly',
     EffectScope: 'readonly',
     axios: 'readonly',
     computed: 'readonly',
