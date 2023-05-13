@@ -17,6 +17,6 @@
   "author": "taiyuuki",
   "license": "MIT",
   "dependencies": {
-    "@taiyuuki/eslint-config-vue": "0.0.7"
+    "@taiyuuki/eslint-config-vue": "workspace:*"
   }
 }

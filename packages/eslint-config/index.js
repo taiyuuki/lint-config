@@ -11,7 +11,7 @@ module.exports = {
     'plugin:eslint-comments/recommended',
   ],
   plugins: ['html'],
-  settings: { 'import/resolver': { node: { extensions: ['.js', '.mjs'] } } },
+  settings: { 'import/resolver': { node: { extensions: ['.js', '.mjs', 'cjs'] } } },
   ignorePatterns: [
     '*.min.*',
     '*.d.ts',
@@ -165,13 +165,7 @@ module.exports = {
     'no-unneeded-ternary': 'warn',
     'no-whitespace-before-property': 'warn',
     'nonblock-statement-body-position': ['warn', 'beside'],
-    'object-curly-newline': ['warn',
-      {
-        ObjectExpression: { multiline: true, minProperties: 3 },
-        ObjectPattern: { 'multiline': true },
-        ImportDeclaration: { 'multiline': true },
-        ExportDeclaration: { multiline: true, minProperties: 3 },
-      }],
+    'object-curly-newline': ['warn', { multiline: true, consistent: true }],
     'object-curly-spacing': ['warn', 'always'],
     'object-property-newline': ['warn', { allowAllPropertiesOnSameLine: true }],
     'operator-linebreak': ['warn', 'before'],

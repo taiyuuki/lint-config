@@ -17,7 +17,7 @@
   "author": "taiyuuki",
   "license": "MIT",
   "dependencies": {
-    "@taiyuuki/eslint-config": "^0.0.4",
+    "@taiyuuki/eslint-config": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.40.0",
     "@typescript-eslint/parser": "^5.40.0",
     "eslint-plugin-import": "^2.26.0",
