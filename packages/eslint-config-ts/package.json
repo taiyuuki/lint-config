@@ -1,6 +1,6 @@
 {
   "name": "@taiyuuki/eslint-config-ts",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "ts eslint config by taiyuuki",
   "main": "index.js",
   "files": [
@@ -8,8 +8,8 @@
   ],
   "scripts": {
     "bump:patch": "bump patch",
-    "publish:dev": "npm publish --registry=http://localhost:4873 --access=public",
-    "publish:npm": "npm publish --registry=https://registry.npmjs.org --access=public"
+    "publish:dev": "pnpm publish --registry=http://localhost:4873 --access=public",
+    "publish:npm": "pnpm publish --registry=https://registry.npmjs.org --access=public"
   },
   "keywords": [
     "eslint config"

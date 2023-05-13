@@ -8,8 +8,8 @@
   ],
   "scripts": {
     "bump:patch": "bump patch",
-    "publish:dev": "npm publish --registry=http://localhost:4873 --access=public",
-    "publish:npm": "npm publish --registry=https://registry.npmjs.org --access=public"
+    "publish:dev": "pnpm publish --registry=http://localhost:4873 --access=public",
+    "publish:npm": "pnpm publish --registry=https://registry.npmjs.org --access=public"
   },
   "keywords": [
     "eslint config"

@@ -26,11 +26,11 @@ module.exports = {
     },
   },
   rules: {
-    'vue/multi-word-component-names': ['error', { 'ignores': ['index', 'default', '404', 'home'] }],
-    'vue/component-definition-name-casing': ['error', 'kebab-case'],
-    'vue/component-options-name-casing': ['error', 'kebab-case'],
+    'vue/multi-word-component-names': 'off',
+    'vue/component-definition-name-casing': 'off',
+    'vue/component-options-name-casing': 'off',
     'vue/component-name-in-template-casing': 'off',
-    'vue/component-tags-order': ['error', { order: ['template', 'script', 'style'] }],
+    'vue/component-tags-order': ['error', { order: ['script', 'template', 'style'] }],
     'vue/block-tag-newline': ['error', {
       singleline: 'always',
       multiline: 'always',

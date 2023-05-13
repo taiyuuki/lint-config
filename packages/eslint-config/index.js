@@ -142,7 +142,7 @@ module.exports = {
     'comma-spacing': 'warn',
     'comma-style': 'warn',
     'computed-property-spacing': ['warn', 'never'],
-    'eol-last': ['warn', 'never'],
+    'eol-last': ['warn', 'always'],
     'func-call-spacing': ['warn', 'never'],
     'indent': ['warn',
       2,
