@@ -15,6 +15,8 @@ module.exports = {
         customRef: 'readonly',
         defineAsyncComponent: 'readonly',
         defineComponent: 'readonly',
+        defineCustomElement: 'readonly',
+        defineSSRCustomElement: 'readonly',
         effectScope: 'readonly',
         getCurrentInstance: 'readonly',
         getCurrentScope: 'readonly',
