@@ -1,6 +1,6 @@
 {
   "name": "@taiyuuki/eslint-config-ts",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "ts eslint config by taiyuuki",
   "main": "index.js",
   "files": [
