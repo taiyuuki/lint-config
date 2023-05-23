@@ -114,7 +114,7 @@ module.exports = {
         },
     ],
     rules: {
-    // error
+        // error
         'no-extra-parens': 'error',
 
         // best practices
@@ -161,7 +161,6 @@ module.exports = {
         'no-mixed-operators': 'warn',
         'no-multiple-empty-lines': ['warn', { max: 1 }],
         'no-negated-condition': 'warn',
-        'no-nested-ternary': 'warn',
         'no-trailing-spaces': 'warn',
         'no-unneeded-ternary': 'warn',
         'no-whitespace-before-property': 'warn',
