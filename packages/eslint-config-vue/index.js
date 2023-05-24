@@ -20,6 +20,9 @@ module.exports = {
                     ['boot', './src/boot'],
                     ['stores', './src/stores'],
                     ['router', './src/router'],
+                    ['plugins', './src/plugins'],
+                    ['utils', './src/utils'],
+                    ['composables', './src/composables'],
                 ],
                 extensions: ['.tsx', '.ts', '.jsx', '.js', '.vue'],
             },
@@ -30,6 +33,7 @@ module.exports = {
         'vue/component-definition-name-casing': 'off',
         'vue/component-options-name-casing': 'off',
         'vue/component-name-in-template-casing': 'off',
+        'vue/return-in-computed-property': 'off',
         'vue/component-tags-order': ['error', { order: ['script', 'template', 'style'] }],
         'vue/block-tag-newline': ['error', {
             singleline: 'always',
