@@ -158,7 +158,6 @@ module.exports = {
             { exceptAfterSingleLine: true }],
         'new-cap': ['warn', { newIsCap: true }],
         'no-lonely-if': 'warn',
-        'no-mixed-operators': 'warn',
         'no-multiple-empty-lines': ['warn', { max: 1 }],
         'no-negated-condition': 'warn',
         'no-trailing-spaces': 'warn',
@@ -199,3 +198,4 @@ module.exports = {
         'rest-spread-spacing': ['warn', 'never'],
     },
 }
+
